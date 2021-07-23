@@ -6,11 +6,14 @@ body {
 .firstsection{
     padding: 5px;
     margin: 10px;
+    height: 400px;
     background-color: #bbcfcc;
 }
 .firstsection > .header{
     text-align: center;
     height: 200px;
+    position: relative;
+
 }
 .firstsection > .header ul li{
     list-style: none;
@@ -18,15 +21,29 @@ body {
     justify-content: space-between;
     overflow: hidden;  
 }
-
-a {
-    text-decoration: none;
-    color: black;
-    margin: 10px 50px 50px 10px;
+.verticalcenter{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-img{
+ul>li>a {
+      text-decoration: none;
+    font-size: large;
+    color: black;
+    margin: 5px 50px 50px 5px;
+}
+ul>li>p a {
+ text-decoration: none;
+    font-size: large;
+    color: black;
+    margin: 30px 60px 60px 30px;
+}
+ul>li>p img{
     width: 40px;
-    height: 50px;
+    height: 40px;
+    position: relative;
 }
 #image1{
 font-weight: 700;
