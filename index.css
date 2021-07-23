@@ -1,15 +1,16 @@
 
 body {
-    font-family: 'Poppins';
-    color: #EAAB1B,#6CB840 ;
+    font-family:'Poppins';
+    margin: 0px;
 }
 .firstsection{
     padding: 5px;
-    margin: 5px;
-    background-color: #649549;
+    margin: 10px;
+    background-color: #bbcfcc;
 }
 .firstsection > .header{
     text-align: center;
+    height: 200px;
 }
 .firstsection > .header ul li{
     list-style: none;
@@ -21,5 +22,37 @@ body {
 a {
     text-decoration: none;
     color: black;
-    margin: 20px 65px 65px 20px;
+    margin: 10px 50px 50px 10px;
+}
+img{
+    width: 40px;
+    height: 50px;
+}
+#image1{
+font-weight: 700;
+font-size: xx-large;
+}
+.streetsize{
+    margin-left: 10px;
+}
+#street{
+   color:  #EAAB1B;
+   font-size: xx-large;
+}
+#food{
+    color: #6CB840;
+    font-size: xx-large;
+}
+#playwithfood{
+    font-size: xx-large;
+    margin: 0px;
+}
+#button{
+    color:white;
+    background-color: #6CB840;
+    border-color: transparent;
+   border-radius: 15px;
+   height: 30px;
+   width: 100px;
+
 }
