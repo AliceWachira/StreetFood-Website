@@ -244,3 +244,13 @@
                 margin: 50px;
                 width: 280px;
             }
+            
+            #contactus>p {
+                font-size: x-large;
+                text-align: center;
+                background-color: #FFD77C;
+            }
+            
+            #us {
+                color: #6CB840;
+            }
