@@ -105,4 +105,23 @@ img{
     justify-content: space-between;
     text-align: center;
     border: 0px;
+
     }
+    
+#section3{
+    padding: 30px;
+    float: left;
+
+    }
+#explore{
+    font-size: xx-large;
+    font-weight: 450;
+}   
+#menu2{
+    color: #6CB840;
+   }
+   #burger1{
+    font-size: x-large;
+    font-weight: 800;
+
+   }
