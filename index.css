@@ -146,11 +146,9 @@ ul>li>p img {
 
 #burger1 {
     font-size: x-large;
-    font-weight: 800;
-}
-
-#burgerimage {
-    float: left;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 0px 0px 20px;
 }
 
 .grid-container {
@@ -162,7 +160,7 @@ ul>li>p img {
 }
 
 .grid-container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #BCF9B5;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -177,4 +175,11 @@ ul>li>p img {
     grid-template-columns: auto auto;
     background-color: #ffffff;
     padding: 10px;
+}
+
+.burgerimage {
+    float: left;
+    width: 50%;
+    height: 80%;
+    flex-direction: row;
 }
