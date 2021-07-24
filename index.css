@@ -75,9 +75,9 @@
                 margin: 0px;
             }
             
-            #button {
+            #button1 {
                 color: white;
-                background-color: #6CB840;
+                font-weight: 700;
                 border-color: transparent;
                 border-radius: 15px;
                 height: 30px;
@@ -193,7 +193,7 @@
             #hotdeals {
                 text-align: center;
                 margin-top: 0px;
-                padding: 20px;
+                padding: 30px;
             }
             
             #hot {
@@ -249,6 +249,8 @@
                 font-size: x-large;
                 text-align: center;
                 background-color: #FFD77C;
+                margin: 0px;
+                padding: 30px;
             }
             
             #contactspan {
@@ -281,6 +283,7 @@
                 margin: 20px;
                 margin-left: 20px;
                 font-size: large;
+                padding: 10px;
             }
             
             #button {
