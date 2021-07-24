@@ -139,6 +139,12 @@ ul>li>p img {
     color: #6CB840;
 }
 
+#explore {
+    background-color: #BCF9B5;
+    height: 80px;
+    padding: 30px;
+}
+
 .container {
     height: 50px;
     width: 50px;
@@ -148,13 +154,14 @@ ul>li>p img {
     font-size: x-large;
     font-weight: 400;
     background-color: white;
-    border-radius: 0px 0px 20px;
+    border-radius: 0px 0px 30px;
+    text-align: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 120px;
     background-color: white;
     padding: 10px;
 }
@@ -166,14 +173,9 @@ ul>li>p img {
     font-size: 30px;
 }
 
-.burgername {
-    font-weight: 700;
-}
-
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #ffffff;
     padding: 10px;
 }
 
