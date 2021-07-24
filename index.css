@@ -1,95 +1,119 @@
-
 body {
-    font-family:'Poppins';
+    font-family: 'Poppins';
     margin: 0px;
 }
-.firstsection{
+
+.firstsection {
     padding: 5px;
     margin: 10px;
     height: 590px;
-    background-color: #bbcfcc;
+    background-color: #E5E5E5;
 }
-.firstsection > .header{
+
+.firstsection>.header {
     text-align: center;
     height: 300px;
     position: relative;
-
 }
-.firstsection > .header ul li{
+
+.firstsection>.header ul li {
     list-style: none;
     display: inline-block;
     justify-content: space-between;
-    overflow: hidden;  
+    overflow: hidden;
 }
-.verticalcenter{
+
+.verticalcenter {
     margin: 0px;
     position: absolute;
     top: 25%;
     -ms-transform: translateY(-30%);
     transform: translateY(-30%);
 }
+
 ul>li>a {
-      text-decoration: none;
+    text-decoration: none;
     font-size: large;
     color: black;
     margin: 5px 50px 50px 5px;
 }
+
 ul>li>p a {
- text-decoration: none;
+    text-decoration: none;
     font-size: large;
     color: black;
     margin: 30px 60px 60px 30px;
 }
-ul>li>p img{
+
+ul>li>p img {
     width: 50px;
     height: 30px;
     position: relative;
 }
-#image1{
-font-weight: 700;
-font-size: xx-large;
+
+#image1 {
+    font-weight: 700;
+    font-size: xx-large;
 }
-.streetsize{
+
+.streetsize {
     margin-left: 10px;
 }
-#street{
-   color:  #EAAB1B;
-   font-size: xx-large;
+
+#street {
+    color: #EAAB1B;
+    font-size: xx-large;
 }
-#food{
+
+#food {
     color: #6CB840;
     font-size: xx-large;
 }
-#playwithfood{
+
+#playwithfood {
     font-size: xx-large;
     margin: 0px;
 }
-#button{
-    color:white;
+
+#button {
+    color: white;
     background-color: #6CB840;
     border-color: transparent;
-   border-radius: 15px;
-   height: 30px;
-   width: 100px;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
 }
-.sectiontwo > .sectiontwo{
-    display: inline-block;
-    align-items: center;
-    justify-content: center
+
+.sectiontwo {
+    padding: 30px;
+    float: center;
+    text-align: center;
 }
-img{
-    max-width: 100%
+
+.sectiontwoimage {
+    margin-right: -120px;
 }
-.sectiontwo > .eattogether >#eatingimage > img{
-    float: left;
-    margin: 10px -70px ;
-}
-#eatingimage{
+
+#eatingimage {
     flex-basis: 0px;
 }
-#eat{
+
+#sectiontwotext {
+    text-align: center;
+}
+
+#something {
+    text-align: center;
+}
+
+#eattogether {
+    color: #EAAB1B;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+#eat {
     clear: right;
-    color:  #EAAB1B;
     font-size: 30px;
     text-align: center;
     border: 0px;
@@ -99,29 +123,58 @@ img{
     margin-left: 70px;
     justify-content: center;
 }
-    
-.sectiontwo > .eattogether #something {
-    margin-left: -100px;
-    justify-content: space-between;
-    text-align: center;
-    border: 0px;
 
-    }
-    
-#section3{
+#section3 {
     padding: 30px;
-    float: left;
+    clear: left;
+}
 
-    }
-#explore{
+#explore {
     font-size: xx-large;
     font-weight: 450;
-}   
-#menu2{
+    text-align: center;
+}
+
+#menu2 {
     color: #6CB840;
-   }
-   #burger1{
+}
+
+.container {
+    height: 50px;
+    width: 50px;
+}
+
+#burger1 {
     font-size: x-large;
     font-weight: 800;
+}
 
-   }
+#burgerimage {
+    float: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.burgername {
+    font-weight: 700;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
