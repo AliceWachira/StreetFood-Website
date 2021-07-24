@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins';
-    margin: 0px;
+    margin: 10px;
 }
 
 .firstsection {
@@ -129,7 +129,7 @@ ul>li>p img {
     clear: left;
 }
 
-#explore {
+#6CB840 #explore {
     font-size: xx-large;
     font-weight: 450;
     text-align: center;
@@ -154,23 +154,17 @@ ul>li>p img {
     font-size: x-large;
     font-weight: 400;
     background-color: white;
-    border-radius: 0px 0px 30px;
+    border-radius: 0px 0px 50px;
     text-align: center;
 }
 
 .grid-container {
+    margin: 0px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 120px;
-    background-color: white;
-    padding: 10px;
-}
-
-.grid-container {
     background-color: #BCF9B5;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    padding: 10px 0;
 }
 
 .grid-container2 {
@@ -184,4 +178,27 @@ ul>li>p img {
     width: 50%;
     height: 80%;
     flex-direction: row;
+    background-color: inherit;
+    position: relative;
+}
+
+#burgername {
+    margin-right: 10px;
+}
+
+.hotdeals {
+    background-color: #C9ECB5;
+}
+
+#hotdeals {
+    text-align: center;
+}
+
+#hot {
+    font-size: x-large;
+}
+
+#deals {
+    font-size: x-large;
+    color: #6CB840;
 }
