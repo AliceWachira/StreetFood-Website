@@ -1,283 +1,303 @@
-    body {
-        font-family: 'Poppins';
-        margin: 10px;
-    }
-    
-    .firstsection {
-        padding: 5px;
-        margin: 10px;
-        height: 590px;
-        background-color: #E5E5E5;
-    }
-    
-    .firstsection>.header {
-        text-align: center;
-        height: 300px;
-        position: relative;
-    }
-    
-    .firstsection>.header ul li {
-        list-style: none;
-        display: inline-block;
-        justify-content: space-between;
-        overflow: hidden;
-    }
-    
-    .verticalcenter {
-        margin: 0px;
-        position: absolute;
-        top: 25%;
-        -ms-transform: translateY(-30%);
-        transform: translateY(-30%);
-    }
-    
-    ul>li>a {
-        text-decoration: none;
-        font-size: large;
-        color: black;
-        margin: 5px 50px 50px 5px;
-    }
-    
-    ul>li>p a {
-        text-decoration: none;
-        font-size: large;
-        color: black;
-        margin: 30px 60px 60px 30px;
-    }
-    
-    ul>li>p img {
-        width: 50px;
-        height: 30px;
-        position: relative;
-    }
-    
-    #image1 {
-        font-weight: 700;
-        font-size: xx-large;
-    }
-    
-    .streetsize {
-        margin-left: 10px;
-    }
-    
-    #street {
-        color: #EAAB1B;
-        font-size: xx-large;
-    }
-    
-    #food {
-        color: #6CB840;
-        font-size: xx-large;
-    }
-    
-    #playwithfood {
-        font-size: xx-large;
-        margin: 0px;
-    }
-    
-    #button {
-        color: white;
-        background-color: #6CB840;
-        border-color: transparent;
-        border-radius: 15px;
-        height: 30px;
-        width: 100px;
-    }
-    
-    .sectiontwo {
-        padding: 30px;
-        float: center;
-        text-align: center;
-    }
-    
-    .sectiontwoimage {
-        margin-right: -120px;
-    }
-    
-    #eatingimage {
-        flex-basis: 0px;
-    }
-    
-    #sectiontwotext {
-        text-align: center;
-    }
-    
-    #something {
-        text-align: center;
-    }
-    
-    #eattogether {
-        color: #EAAB1B;
-        margin-top: 400px;
-        margin-left: 50px;
-    }
-    
-    #eat {
-        clear: right;
-        font-size: 30px;
-        text-align: center;
-        border: 0px;
-        padding-left: 5px;
-        padding-top: 70em;
-        margin: 50px;
-        margin-left: 70px;
-        justify-content: center;
-    }
-    
-    #section3 {
-        padding: 30px;
-        clear: left;
-    }
-    
-    #explore {
-        font-size: xx-large;
-        font-weight: 450;
-        text-align: center;
-    }
-    
-    #menu2 {
-        color: #6CB840;
-    }
-    
-    #explore {
-        background-color: #E7F7E4;
-        height: 80px;
-        padding: 30px;
-    }
-    
-    .container {
-        height: 50px;
-        width: 50px;
-    }
-    
-    #burger1 {
-        font-size: x-large;
-        font-weight: 400;
-        background-color: white;
-        border-radius: 0px 0px 50px;
-        text-align: center;
-    }
-    
-    .grid-container {
-        margin: 0px;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 120px;
-        background-color: #E7F7E4;
-        padding: 10px 0;
-    }
-    
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 10px;
-    }
-    
-    .burgerimage {
-        float: left;
-        width: 50%;
-        height: 80%;
-        flex-direction: row;
-        background-color: inherit;
-        position: relative;
-    }
-    
-    #burgername {
-        margin-right: 10px;
-    }
-    
-    .hotdeals {
-        background-color: #C9ECB5;
-    }
-    
-    #hotdeals {
-        text-align: center;
-        margin-top: 0px;
-        padding: 20px;
-    }
-    
-    #hot {
-        font-size: x-large;
-    }
-    
-    #deals {
-        font-size: x-large;
-        color: #6CB840;
-    }
-    
-    .flex-container1 {
-        display: flex;
-    }
-    
-    .burger2image {
-        position: relative;
-        margin-left: 150px;
-        height: 50%;
-        width: 50%;
-    }
-    
-    .juiceimage {
-        margin-left: -440px;
-    }
-    
-    .specialcombo {
-        text-align: center;
-        margin-top: 180px;
-    }
-    
-    #special {
-        font-size: xx-large;
-        color: #6CB840;
-        text-align: left;
-        margin: 50px;
-        padding-bottom: -10px;
-    }
-    
-    #pizz {
-        font-size: x-large;
-        text-align: left;
-        margin: 50px;
-    }
-    
-    #specialparagragh {
-        text-align: center;
-        margin: 50px;
-        width: 280px;
-    }
-    
-    .contactus>p {
-        font-size: x-large;
-        text-align: center;
-        background-color: #FFD77C;
-    }
-    
-    #contactspan {
-        font-weight: 600;
-    }
-    
-    #us {
-        color: #6CB840;
-        font-weight: 600;
-    }
-    
-    #contactparagraph {
-        font-size: large;
-    }
-    
-    #form {
-        text-align: center;
-        background-color: #FFD77C;
-        margin: -30px 0px;
-        padding: 30px;
-    }
-    
-    #email {
-        width: 600px;
-        height: 30px;
-        border-radius: 80px;
-        border-color: white;
-        border-top-width: 0px;
-        margin: 20px;
-        margin-left: 20px;
-        font-size: large;
-    }
+            body {
+                font-family: 'Poppins';
+                margin: 10px;
+            }
+            
+            .firstsection {
+                padding: 5px;
+                margin: 10px;
+                height: 590px;
+                background-color: #E5E5E5;
+            }
+            
+            .firstsection>.header {
+                text-align: center;
+                height: 300px;
+                position: relative;
+            }
+            
+            .firstsection>.header ul li {
+                list-style: none;
+                display: inline-block;
+                justify-content: space-between;
+                overflow: hidden;
+            }
+            
+            .verticalcenter {
+                margin: 0px;
+                position: absolute;
+                top: 25%;
+                -ms-transform: translateY(-30%);
+                transform: translateY(-30%);
+            }
+            
+            ul>li>a {
+                text-decoration: none;
+                font-size: large;
+                color: black;
+                margin: 5px 50px 50px 5px;
+            }
+            
+            ul>li>p a {
+                text-decoration: none;
+                font-size: large;
+                color: black;
+                margin: 30px 60px 60px 30px;
+            }
+            
+            ul>li>p img {
+                width: 50px;
+                height: 30px;
+                position: relative;
+            }
+            
+            #image1 {
+                font-weight: 700;
+                font-size: xx-large;
+            }
+            
+            .streetsize {
+                margin-left: 10px;
+            }
+            
+            #street {
+                color: #EAAB1B;
+                font-size: xx-large;
+            }
+            
+            #food {
+                color: #6CB840;
+                font-size: xx-large;
+            }
+            
+            #playwithfood {
+                font-size: xx-large;
+                margin: 0px;
+            }
+            
+            #button {
+                color: white;
+                background-color: #6CB840;
+                border-color: transparent;
+                border-radius: 15px;
+                height: 30px;
+                width: 100px;
+            }
+            
+            .sectiontwo {
+                padding: 30px;
+                float: center;
+                text-align: center;
+            }
+            
+            .sectiontwoimage {
+                margin-right: -120px;
+            }
+            
+            #eatingimage {
+                flex-basis: 0px;
+            }
+            
+            #sectiontwotext {
+                text-align: center;
+            }
+            
+            #something {
+                text-align: center;
+            }
+            
+            #eattogether {
+                color: #EAAB1B;
+                margin-top: 400px;
+                margin-left: 50px;
+            }
+            
+            #eat {
+                clear: right;
+                font-size: 30px;
+                text-align: center;
+                border: 0px;
+                padding-left: 5px;
+                padding-top: 70em;
+                margin: 50px;
+                margin-left: 70px;
+                justify-content: center;
+            }
+            
+            #section3 {
+                padding: 30px;
+                clear: left;
+            }
+            
+            #explore {
+                font-size: xx-large;
+                font-weight: 450;
+                text-align: center;
+            }
+            
+            #menu2 {
+                color: #6CB840;
+            }
+            
+            #explore {
+                background-color: #E7F7E4;
+                height: 80px;
+                padding: 30px;
+            }
+            
+            .container {
+                height: 50px;
+                width: 50px;
+            }
+            
+            #burger1 {
+                font-size: x-large;
+                font-weight: 400;
+                background-color: white;
+                border-radius: 0px 0px 50px;
+                text-align: center;
+            }
+            
+            .grid-container {
+                margin: 0px;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 120px;
+                background-color: #E7F7E4;
+                padding: 10px 0;
+            }
+            
+            .grid-container2 {
+                display: grid;
+                grid-template-columns: auto auto;
+                padding: 10px;
+            }
+            
+            .burgerimage {
+                float: left;
+                width: 50%;
+                height: 80%;
+                flex-direction: row;
+                background-color: inherit;
+                position: relative;
+            }
+            
+            #burgername {
+                margin-right: 10px;
+            }
+            
+            .hotdeals {
+                background-color: #C9ECB5;
+            }
+            
+            #hotdeals {
+                text-align: center;
+                margin-top: 0px;
+                padding: 20px;
+            }
+            
+            #hot {
+                font-size: x-large;
+            }
+            
+            #deals {
+                font-size: x-large;
+                color: #6CB840;
+            }
+            
+            .flex-container1 {
+                display: flex;
+            }
+            
+            .burger2image {
+                position: relative;
+                margin-left: 150px;
+                height: 50%;
+                width: 50%;
+            }
+            
+            .juiceimage {
+                margin-left: -440px;
+            }
+            
+            .specialcombo {
+                text-align: center;
+                margin-top: 180px;
+            }
+            
+            #special {
+                font-size: xx-large;
+                color: #6CB840;
+                text-align: left;
+                margin: 50px;
+                padding-bottom: -10px;
+            }
+            
+            #pizz {
+                font-size: x-large;
+                text-align: left;
+                margin: 50px;
+            }
+            
+            #specialparagragh {
+                text-align: center;
+                margin: 50px;
+                width: 280px;
+            }
+            
+            .contactus>p {
+                font-size: x-large;
+                text-align: center;
+                background-color: #FFD77C;
+            }
+            
+            #contactspan {
+                font-weight: 600;
+            }
+            
+            #us {
+                color: #6CB840;
+                font-weight: 600;
+            }
+            
+            #contactparagraph {
+                font-size: large;
+            }
+            
+            #form {
+                text-align: center;
+                background-color: #FFD77C;
+                margin: -30px 0px;
+                padding: 50px;
+            }
+            
+            #email {
+                width: 600px;
+                height: 30px;
+                border-radius: 80px;
+                border-color: white;
+                border-style: none;
+                border-top-width: 0px;
+                margin: 20px;
+                margin-left: 20px;
+                font-size: large;
+            }
+            
+            #button {
+                text-align: center;
+                background-color: #FFD77C;
+                margin: 0px 0px;
+                padding: 40px;
+                width: auto;
+            }
+            
+            button {
+                background-color: #6CB840;
+                color: white;
+                border-radius: 80px;
+                width: 100px;
+                height: 30px;
+                border-color: #6CB840;
+                border-style: none;
+                margin-left: 00px;
+            }
