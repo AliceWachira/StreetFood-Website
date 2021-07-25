@@ -390,9 +390,9 @@ button {
     margin-top: -190px;
     height: 600px;
     width: 600px;
-    border: 1px dashed black;
+    border: 1px dashed #649549;
     position: relative;
-    border-color: #000 transparent transparent transparent;
+    border-color: #091602 transparent transparent transparent;
     border-radius: 50%/600px 600px 0 0;
 }
 
