@@ -304,3 +304,46 @@
                 border-style: none;
                 margin-left: 00px;
             }
+            
+            .footer {
+                box-sizing: border-box;
+                display: flex;
+                background-color: #C9ECB5;
+            }
+            
+            .column1 {
+                float: left;
+                width: 30%;
+                padding: 10px;
+                height: 300px;
+            }
+            
+            .column2 {
+                float: left;
+                width: 40%;
+                padding: 10px;
+                height: 300px;
+            }
+            
+            .column3 {
+                float: left;
+                width: 30%;
+                padding: 10px;
+                height: 300px;
+            }
+            /* Clear floats after the columns */
+            
+            .footer:after {
+                content: "";
+                display: table;
+            }
+            
+            #sunday,
+            #friday {
+                font-size: x-large;
+                margin-botton: 5px;
+            }
+            
+            #location {
+                text-align: center;
+            }
